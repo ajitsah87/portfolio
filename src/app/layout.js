@@ -11,7 +11,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="title.svg" />
+      <title>Portfolio - Ajit Sah</title> 
+      </head>
+        
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
+
+
+// 
